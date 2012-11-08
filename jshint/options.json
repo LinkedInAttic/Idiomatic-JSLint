@@ -1,6 +1,24 @@
 {
+  "globals": {
+    "LI": false,
+    "Lu": false,
+    "Inject": false,
+    "_": false,
+    "module": false,
+    "require": false,
+    "exports": false,
+    "window": false,
+    "dust": false,
+    "YAHOO": false,
+    "YDom": false,
+    "YEvent": false,
+    "Y$": false,
+    "YAnim": false
+  },
+
+  //Enforcing options
   "bitwise": true,
-  "camelcase": true,
+  "camelcase": false,
   "curly": true,
   "eqeqeq": true,
   "forin": false,
@@ -19,6 +37,7 @@
   "strict": false,
   "trailing": true,
 
+  // Relaxing options
   "asi": false,
   "boss": false,
   "debug": false,
@@ -28,7 +47,7 @@
   "evil": false,
   "expr": false,
   "funcscope": false,
-  "globalscript": false,
+  "globalstrict": false,
   "iterator": false,
   "lastsemic": false,
   "laxbreak": false,
@@ -43,6 +62,12 @@
   "shadow": true,
   "sub": true,
   "supernew": false,
-  "validthis": false
-}
+  "validthis": false,
 
+  // Environments
+  "browser": true,
+  "jquery": true,
+
+  // Legacy
+  "white": false
+}
