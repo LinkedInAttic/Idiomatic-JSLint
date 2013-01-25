@@ -1,5 +1,5 @@
 {
-  "globals": {
+  "predef": {
     "LI": false,
     "Lu": false,
     "Inject": false,
@@ -13,10 +13,12 @@
     "YDom": false,
     "YEvent": false,
     "Y$": false,
-    "YAnim": false
+    "YAnim": false,
+    "YConn": false,
+    "WebTracking": false,
+    "Raphael": false
   },
 
-  //Enforcing options
   "bitwise": true,
   "camelcase": false,
   "curly": true,
@@ -37,7 +39,6 @@
   "strict": false,
   "trailing": true,
 
-  // Relaxing options
   "asi": false,
   "boss": false,
   "debug": false,
@@ -64,10 +65,8 @@
   "supernew": false,
   "validthis": false,
 
-  // Environments
   "browser": true,
   "jquery": true,
 
-  // Legacy
   "white": false
 }
