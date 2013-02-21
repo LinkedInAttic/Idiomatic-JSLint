@@ -35,7 +35,7 @@
   "quotmark": "single",
   "regexp": false,
   "undef": true,
-  "unused": true,
+  "unused": false,
   "strict": false,
   "trailing": true,
 
