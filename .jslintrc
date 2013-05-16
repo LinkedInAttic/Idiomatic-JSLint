@@ -1,3 +1,12 @@
+/*
+ * JSLint's implementation of JSHint
+ * The JSLint options and makeup of this file were created based on the documentation of JSLint by 
+ * Douglas Crockford: http://www.jslint.com/lint.html
+ *
+ * They were compared to similar options provided by JSHint at
+ * http://www.jshint.com/docs/#options 
+ */
+
 {
   "ass" : true,       // Not checked in JSHint
   "bitwise" : false,  // 'false' means 'not allowed'
